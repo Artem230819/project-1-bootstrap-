@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background: url(../img/fon/PUT\ YOUR\ BACKGROUND\ HERE.png) no-repeat center / cover;
+    height: 670px;
+}
+.header .container{
+    padding-top: 15px;
+}
+.logo{
+    display: flex;
+}
+.logo_text{
+  font-size: 30px;
+  color: rgb(70, 147, 188);
+}
+.menu{
+    justify-content: space-between;
+    display: flex;
+    list-style-type: none;
+}
+.nav_menu{
+        font-size: 13px;
+        color: #ffffff;
+        font-weight: bold;
+}
+.HOME{
+    color: #00e0d0;
+}
+.header_bot{
+    text-align: center;
+    margin-top: 150px;
+}
+.header_bot .line{
+    margin: 5px 0px;
+    text-align: center;
+}
+.heading{
+        font-size: 32px;
+        color: rgb(255, 255, 255);    
+        
+}
+.text{
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.8);  
+        padding: 0 111px;
+        
+}
+.btn button{
+        font-size: 16px;
+        color: rgb(0, 224, 208);
+        width: 130px;
+        background: rgba(255, 255, 255, 0.00001);
+        border: solid 1px rgb(0, 224, 208) ;
+        height: 38px;
+        font-weight: bold;
+}
+.header_bot .carousel-indicators{
+    margin-bottom: -160px;
+}
+.header_bot .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #261a48;
+    border: solid 1px #bbbabc ;
+  }
+.header_bot .carousel-indicators .active{
+    background-color:#00e0d0;
+  }
+
+
+
+
+
+.our_story{
+      height: 320px;
+  }
+.our_story .row{
+    margin-top: 55px;
+}
+
+.big_logo_text .heading{
+        font-size: 22px;
+        color: rgb(65, 61, 75);
+        font-weight: bold;
+        margin-bottom: 13px; 
+}
+.big_logo_text .text{
+    font-size: 14px;
+    color: rgba(65, 61, 75, 0.749); 
+    padding: 0;
+    margin: 0; 
+    width: 512px;
+}
+
+
+
+.video{
+    background:url(../img/fon/PUT\ YOUR\ IMAGE\ HERE\(2\).png) no-repeat center / cover;
+    height: 546px;
+}
+.video_content{
+    text-align: center;
+    margin-top: 190px;
+}
+
+.video .signature{
+        font-size: 16px;
+        color: rgb(255, 255, 255);
+  margin-top: 25px;
+}
+
+
+.expertise{
+    height: 755px;
+}
+.title{
+    text-align: center;
+    justify-content: center;
+    margin-top: 65px;
+    margin-bottom: 50px;
+}
+.title h1{
+        font-size: 22px;
+        color: rgb(65, 61, 75);
+        font-weight: bold;  
+        margin-bottom: 10px;
+}
+.title p{
+        font-size: 14px;
+        color: rgba(47, 45, 53, 0.749);
+        font-weight: 550;
+        margin-bottom: 5px;
+}
+.card{
+    text-align: center;
+    border: none
+}
+.card .image{
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+.card h4{
+        font-size: 14px;
+        color: rgb(65, 61, 75);
+        font-weight: 650;  
+        margin-bottom: 20px;   
+}
+.card p{
+        font-size: 14px;
+        color: rgba(51, 51, 51, 0.749);
+     
+}
+.card_bot{
+    margin-top: 60px;
+}
+
+
+
+.our_team{
+    background:url(../img/fon/PUT\ YOUR\ BACKGROUND\ HERE\(3\).png) no-repeat center / cover;
+    height: 710px;
+}
+.our_team .title h1{
+        font-size: 22px;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+    
+}
+.our_team .title p{
+        font-size: 14px;
+        color: rgba(249, 249, 249, 0.8);
+        font-weight: normal;
+}
+.card_team{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.card_team .photo{
+    margin: 0 auto;
+}
+.card_team .photo img{
+    width: 100%;
+}
+.card_team .name{
+        font-size: 14px;
+        color: rgb(255, 255, 255);   
+        font-weight: 600;   
+        margin-top: 10px;
+}
+.card_team .position{
+        font-size: 13px;
+        color: rgba(250, 250, 250, 0.702);    
+        margin-top: 3px; 
+        padding-bottom: 13px;
+        border-bottom: 2px solid #7b778f;
+}
+.our_team_bot{
+    text-align: center;
+    margin-top: 60px;
+}
+.our_team_text{
+        font-size: 14px;
+        color: rgba(243, 243, 243, 0.7);  
+        margin-bottom: 15px;   
+}
+.our_team_bot button{
+    width: 140px;
+}
+
+.our_works{
+    height: 625px;
+}
+.heading_top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.heading_top h1{
+        font-size: 22px;
+        color: rgb(65, 61, 75);
+        font-weight: bold;     
+}
+.heading_top a{
+        font-size: 14px;
+        color: rgb(65, 61, 75);  
+        text-decoration: none;   
+}
+.img_work img{
+    width: 100%;
+}
+.our_works_img{
+    text-align: center;
+    margin-top: 60px;
+}
+.our_works_img .btn{
+    margin-top: 50px;
+}
+
+
+
+
+.reviews{
+    background:url(../img/fon/PUT\ YOUR\ BACKGROUND\ HERE\(4\).png) no-repeat center / cover;
+    height: 496px;
+}
+.reviews_content{
+    text-align: center;
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.851);    
+        margin-top: 50px;
+}
+.reviews_text{
+    margin-top: 30px;
+    padding: 0 193px;
+}
+.reviews_content .name{
+        font-size: 14px;
+        font-weight: bold;
+        color: rgb(255, 255, 255);      
+}
+.reviews_content .position{
+        font-size: 13px;
+        color: rgba(255, 255, 255, 0.702);    
+}
+
+
+
+
+.good_news{
+    height: 650px;
+}
+.good_news .heading{
+        font-size: 22px;
+        color: rgb(65, 61, 75);
+        font-weight: bold;    
+        margin-top: 55px;
+}
+.form input{
+    width: 100%;
+    border-color: rgba(47, 45, 53, 0.08);
+    min-height: 45px
+}
+input{
+    margin-top: 20px;
+}
+.last_input{
+    padding: 100px 0;
+}
+.last_input::placeholder{
+    transform: translateY(-100px);
+}
+.good_news .btn{
+    margin-top: 15px;
+}
+.all_brand img{
+    margin-top: 50px;
+}
+.brand_left{
+    float: left;
+    width: 180px;
+}
+.brand_right{
+    float: right;
+    width: 180px;
+}
+
+
+
+.footer{
+    background: url(../img/fon/PUT\ YOUR\ BACKGROUND\ HERE\(5\).png) no-repeat center / cover;
+    height: 400px;
+    line-height: 2;
+}
+.footer .our_studio{
+    padding-top: 60px;
+}
+.footer_logo .logo{
+    margin-bottom: 20px;
+}
+.footer_logo .text{
+    padding: 0;
+    padding-right: 58px;
+}
+.our_studio h4{
+        font-size: 15px;
+        color: rgb(255, 255, 255); 
+        margin-bottom: 25px;    
+}
+.address{
+    display: flex;
+}
+.add{
+    margin-top: 25px;
+}
+.add .text{
+    padding: 0;
+    margin-left: 10px;
+}
+.phone{
+    display: flex; 
+}
+.add .number{
+    margin-left: 10px;
+}
+.number a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.702);
+}
+.touch{
+    margin-top: 25px;
+}
+.sand input{
+    background-color: transparent;
+    border-color: rgba(47, 45, 53, 0.749);
+}
+.icon_social{
+    display: flex;
+}
+.icon_social li{
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.footer_menu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.footer_menu li{
+    text-decoration: none;
+    list-style-type: none;
+}
+.footer_menu a{
+    color: rgba(255, 255, 255, 0.702);
+}
+.footer_menu_right{
+    margin-top: 50px;
+    color: rgba(255, 255, 255, 0.702);
+}
